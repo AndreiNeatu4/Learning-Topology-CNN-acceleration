@@ -1,0 +1,18 @@
+{
+  "n_test": 300,
+  "mae_mean": 0.04326606922782958,
+  "iou_mean": 0.9188991298058132,
+  "vol_err_abs_mean": 0.005373848974704743,
+  "dc_mean_pct": 74.02468455491233,
+  "dc_median_pct": 8.305027581440612,
+  "dc_p90_pct": 43.792110079537835,
+  "frac_dc_below_5pct": 0.35,
+  "frac_dc_below_10pct": 0.5866666666666667,
+  "cnn_ms_single": 8.623182500059556,
+  "cnn_ms_batch_per_case": 5.208121586665584,
+  "simp_s_mean": 0.6928860515705021,
+  "simp_iterations_mean": 103.2125,
+  "speedup_single": 80.3515467248567,
+  "n_params": 1927873,
+  "device": "cpu"
+}
