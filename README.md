@@ -1,7 +1,6 @@
 # Learning Topology — optimizare topologică accelerată cu CNN
 
-Proiect pentru disciplina *Artificial Intelligence and Machine Learning Applied in CAE and CAM*
-(master ACE Craiova). O rețea **U-Net** învață să prezică direct layout-ul optim de material al
+O rețea **U-Net** învață să prezică direct layout-ul optim de material al
 unei console 2D — rezultatul pe care îl dă în mod normal **optimizarea topologică SIMP** — într-o
 singură trecere, fără iterații. Totul este software (Python).
 
@@ -22,7 +21,7 @@ pre-antrenat** (`models/unet.pt`), deci interfața funcționează imediat.
 | Generare date | Eșantionare Latin Hypercube + rulări SIMP în paralel → `data/dataset.npz`. |
 | Antrenare | Antrenează U-Net cu grafic live al loss-ului; salvează în `models/`. |
 | Evaluare | Metrici pe setul de test: MAE, IoU, Δc (complianță FE), eroare de volum, timp; figuri și cele mai slabe cazuri. |
-| Despre proiect | Rezumat și cele 6 întrebări din tutorial. |
+| Despre proiect | Rezumatul proiectului. |
 
 ## Dataset extern: Sosnovik & Oseledets (TOP)
 
